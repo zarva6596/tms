@@ -1,0 +1,86 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading3",
+						"content": {
+							"text": "Nervous"
+						}
+					}
+				]
+			},
+			"list": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"year",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fewer",
+									"type": "Text"
+								}
+							],
+							[
+								"text",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Ex deserunt voluptate in tempor ullamco magna tempor fugiat. Ullamco officia id veniam velit anim duis."
+											}
+										}
+									]
+								}
+							],
+							[
+								"link_title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "yourself",
+									"type": "Text"
+								}
+							],
+							[
+								"link_address",
+								{
+									"key": "c9148b9c-f01e-447b-acbf-f0ff57f8bc17",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://google.com",
+										"text": "feel"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "lonely",
+				"type": "Text"
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"key": "d1cee329-78ac-4c57-abe0-71fdbf7caf93",
+				"value": {
+					"__TYPE__": "ExternalLink",
+					"url": "https://slicemachine.dev",
+					"text": "needs"
+				}
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,129 @@
+{
+  "id": "steps_section",
+  "type": "SharedSlice",
+  "name": "StepsSection",
+  "description": "StepsSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "heading4"
+          }
+        },
+        "steps": {
+          "type": "Group",
+          "config": {
+            "label": "steps",
+            "repeat": true,
+            "fields": {
+              "label": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Label",
+                  "placeholder": "",
+                  "allowTargetBlank": false,
+                  "multi": "heading2"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "",
+                  "allowTargetBlank": false,
+                  "multi": "paragraph"
+                }
+              },
+              "image": {
+                "type": "Image",
+                "config": {
+                  "label": "Image",
+                  "constraint": {},
+                  "thumbnails": []
+                }
+              }
+            }
+          }
+        },
+        "badges": {
+          "type": "Group",
+          "config": {
+            "label": "Badges",
+            "repeat": true,
+            "fields": {
+              "step_index": {
+                "type": "Number",
+                "config": {
+                  "label": "Step Index",
+                  "placeholder": ""
+                }
+              },
+              "icon": {
+                "type": "Text",
+                "config": {
+                  "label": "Icon",
+                  "placeholder": ""
+                }
+              },
+              "text": {
+                "type": "Text",
+                "config": {
+                  "label": "Text",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "action_title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Action Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "heading2"
+          }
+        },
+        "action_desctiption": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Action Desctiption",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph"
+          }
+        },
+        "action_button_text": {
+          "type": "Text",
+          "config": {
+            "label": "Action Button Text",
+            "placeholder": ""
+          }
+        },
+        "action_button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Action Button Link",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": false,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

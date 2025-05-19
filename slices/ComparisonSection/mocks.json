@@ -1,0 +1,88 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"pre_heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading4",
+						"content": {
+							"text": "Fruit"
+						}
+					}
+				]
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Field"
+						}
+					}
+				]
+			},
+			"items": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "bag",
+									"type": "Text"
+								}
+							],
+							[
+								"tms",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "highway",
+									"type": "Text"
+								}
+							],
+							[
+								"spravato",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "corner",
+									"type": "Text"
+								}
+							],
+							[
+								"iv_im",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "vegetable",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"tms_title": {
+				"__TYPE__": "FieldContent",
+				"value": "something",
+				"type": "Text"
+			},
+			"spravato_title": {
+				"__TYPE__": "FieldContent",
+				"value": "blue",
+				"type": "Text"
+			},
+			"iv_im_title": {
+				"__TYPE__": "FieldContent",
+				"value": "nodded",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

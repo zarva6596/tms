@@ -1,0 +1,87 @@
+{
+  "id": "main_section",
+  "type": "SharedSlice",
+  "name": "MainSection",
+  "description": "MainSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading1"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "text_background": {
+          "type": "Image",
+          "config": {
+            "label": "Text Background",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "main_image": {
+          "type": "Image",
+          "config": {
+            "label": "Main image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "options": {
+          "type": "Group",
+          "config": {
+            "label": "Options",
+            "repeat": true,
+            "fields": {
+              "item": {
+                "type": "Text",
+                "config": {
+                  "label": "Item",
+                  "placeholder": ""
+                }
+              }
+            }
+          }
+        },
+        "button_text": {
+          "type": "Text",
+          "config": {
+            "label": " Button text",
+            "placeholder": ""
+          }
+        },
+        "button_link": {
+          "type": "Link",
+          "config": {
+            "label": "Button Link",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": false,
+            "allowText": true,
+            "repeat": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

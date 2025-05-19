@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/ABCArizonaSerif-Thin-Trial.woff2") format("woff2");
+  font-family: "ABCArizona";
+}
+
+h1,
+h2, 
+h3,
+h4,
+h5,
+h6 {
+  @apply font-abc;
+}
+
+h1 {
+  @apply text-[2rem] leading-8 sm:text-[2.5rem] sm:leading-10 lg:text-7xl lg:leading-20 mb-3 lg:mb-5;
+}
+
+h2 {
+  @apply text-3.5xl leading-8 sm:text-4.5xl sm:leading-12 lg:text-5xl lg:leading-14 font-semibold;
+}
+
+h3 {
+  @apply text-2.5xl leading-9 sm:text-3.5xl lg:text-4.5xl lg:leading-12 font-semibold;
+}
+
+h4 {
+  @apply text-xl leading-7 sm:text-2xl lg:text-2.5xl lg:leading-8 font-semibold;
+}
+
+@layer components {
+  :root {
+      --swiper-pagination-color: #0C434D;
+      --swiper-pagination-bullet-width: 8px;
+      --swiper-pagination-bullet-height: 8px;
+  }
+}

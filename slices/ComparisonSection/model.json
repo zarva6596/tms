@@ -1,0 +1,95 @@
+{
+  "id": "comparison_section",
+  "type": "SharedSlice",
+  "name": "ComparisonSection",
+  "description": "ComparisonSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "pre_heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Pre Heading",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "heading4"
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "heading2"
+          }
+        },
+        "tms_title": {
+          "type": "Text",
+          "config": {
+            "label": "TMS Title",
+            "placeholder": ""
+          }
+        },
+        "spravato_title": {
+          "type": "Text",
+          "config": {
+            "label": "Spravato Title",
+            "placeholder": ""
+          }
+        },
+        "iv_im_title": {
+          "type": "Text",
+          "config": {
+            "label": "IV IM Title",
+            "placeholder": ""
+          }
+        },
+        "items": {
+          "type": "Group",
+          "config": {
+            "label": "Items",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "Text",
+                "config": {
+                  "label": "title",
+                  "placeholder": ""
+                }
+              },
+              "tms": {
+                "type": "Text",
+                "config": {
+                  "label": "TMS",
+                  "placeholder": "TMS  (Transcranial Magnetic Stimulation)"
+                }
+              },
+              "spravato": {
+                "type": "Text",
+                "config": {
+                  "label": "Spravato",
+                  "placeholder": "Spravato  (Esketamine)"
+                }
+              },
+              "iv_im": {
+                "type": "Text",
+                "config": {
+                  "label": "IV IM",
+                  "placeholder": "IV/IM Ketamine Infusions "
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
