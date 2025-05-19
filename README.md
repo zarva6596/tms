@@ -1,58 +1,14 @@
-# BigLeap Boilerplate
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# [TMS Therapy Landing Page — Big Leap Health](https://www.bigleaphealth.com/tms)
 
-## Project Structure
-The codebase is organized as follows:
+This landing page was designed to inform and convert potential patients interested in Transcranial Magnetic Stimulation (TMS) therapy. The page highlights the core benefits of TMS — high effectiveness, minimal side effects, and long-term results — while guiding users through the treatment process: from initial consultation to continued support.
 
-```
-├── components/     # Reusable Vue components
-├── pages/         # Application pages and routes
-├── public/        # Static files served at root path
-├── assets/        # Uncompiled assets (styles, svgs, etc.)
-├── plugins/       # Vue plugins and utilities
-├── slices/        # Prismic slice components
-├── stores/        # Pinia stores for state management
-└── utils/         # Helper functions and utilities
-```
+The design combines trust-building content with a clean, user-friendly layout, helping users understand the therapy and take action with confidence.
 
-## Setup
 
-### Installing Bun
-You can install Bun by running:
 
-```bash
-curl -fsSL https://bun.sh/install | bash
-```
 
-Then verify with:
+## Author
 
-```bash
-bun --version
-```
+- [@zarva6596](https://github.com/zarva6596)
 
-### Dependencies
-Make sure to install dependencies:
-
-```bash
-bun install
-```
-
-## Development
-
-### Local Server
-Start the development server on http://localhost:3000:
-
-```bash
-bun run dev
-```
-
-### Slice Machine
-To work with Slice Machine:
-
-1. Start the Slice Machine server:
-```bash
-bun run slicemachine
-```
-
-2. Open the Slice Machine UI at http://localhost:9999
